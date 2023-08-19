@@ -1,0 +1,129 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family:Arial, Helvetica, sans-serif;
+   
+}
+
+body{
+    background-color: #E7EDED;
+    margin: 2rem;
+}
+
+.card{
+    background-color: white;
+    width: 18rem;
+    border-radius: 0.5rem;
+    padding-bottom: 0.5rem;
+    border: 0.1rem solid #D4DBDB;
+}
+
+
+
+.info{
+    margin: 1rem 1rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.imagen{
+    border-radius: 1rem 1rem ;
+    background-image: url(img/knife.jpg);
+    background-repeat: no-repeat;
+    height: 12rem;
+    background-position: center center;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    padding: 0.5rem;
+}
+
+.imagen:hover{
+    cursor: pointer;
+}
+
+.imagen div{
+    display: flex;
+    font-size: 0.8rem;
+    background-color: #CED0D1;
+    border-radius: 0.4rem;
+    padding: 0.35rem;
+    color: white;
+    column-gap: 0.3rem;
+}
+
+.imagen img{
+    height: 0.9rem;
+}
+
+.info .i{
+    height: 1.5rem;
+    transition: transform 0.3s ease;
+}
+
+.info div h4{
+    color: #203B44;
+    font-size: 0.8rem;
+}
+
+.info div p{
+    color: #8FA0A7;
+    font-size: 0.8rem;
+}
+
+.info .boton{
+    border: none;
+    padding: 0.8rem;
+    border-radius: 0.5rem;
+    background-color: #0087FF;
+    color: white;
+    width: 7.5rem;
+    display: flex;
+    justify-content: center;
+    font-size: 0.8rem;
+}
+
+.info .i:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+   
+    
+}
+
+.info button{
+    display: flex;
+    align-items: center;
+    border-radius: 0.5rem;
+    padding: 0.8rem;
+    border: none;
+    border: 0.1rem solid #D4DBDB;
+    background-color: white;
+    font-size: 0.8rem;
+    color: #8FA0A7;
+    column-gap: 0.2rem;
+}
+
+.info button img{
+    height: 0.8rem;
+   
+}
+
+.info .boton:hover{
+    background-color: #39a3ff;
+    cursor: pointer;
+    color: white;
+}
+
+.info button:hover{
+    cursor: pointer;
+    background-color: rgb(206, 206, 206);
+    color: #6f7c81;
+    border: 0.1rem solid #a7acac;
+}
+
+@media (min-width: 1920px) {
+    .card{
+        scale: 1.8;
+        margin: 10rem;
+    }
+}
